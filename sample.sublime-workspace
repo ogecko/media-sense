@@ -1,0 +1,921 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mix",
+				"mixture"
+			],
+			[
+				"svm",
+				"svmfit"
+			],
+			[
+				"requ",
+				"require"
+			],
+			[
+				"plo",
+				"plot"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/modules/og-xbmc/controllers/movie.client.controller.js",
+			"settings":
+			{
+				"buffer_size": 6542,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/playlist.server.controller.js",
+			"settings":
+			{
+				"buffer_size": 1468,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/modules/og-xbmc/views/movieDetails.client.view.html",
+			"settings":
+			{
+				"buffer_size": 4532,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/modules/og-xbmc/views/movieSummary.client.view.html",
+			"settings":
+			{
+				"buffer_size": 2378,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSublimeLinter-contrib-eslint:\n----------------------------\n\n  # SublimeLinter-eslint\n  \n  v1.6.0\n  \n  * Use ESLint >=1.0.0, switch to 1-based columns\n  \n  ",
+			"settings":
+			{
+				"buffer_size": 206,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "public/lib/angular-xbmc/dist/angular-xbmc.js",
+			"settings":
+			{
+				"buffer_size": 122052,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "g",
+		"selected_items":
+		[
+			[
+				"g",
+				"Git: Fetch"
+			],
+			[
+				"gc",
+				"Git: Commit"
+			],
+			[
+				"ga",
+				"Git: Add..."
+			],
+			[
+				"gs",
+				"Git: Status"
+			],
+			[
+				"gp",
+				"Git: Push"
+			],
+			[
+				"gd",
+				"Git: Diff All Files"
+			],
+			[
+				"lint",
+				"SublimeLinter: Report (Open Files)"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"c",
+				"Git: Commit"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"grunt test",
+				"Preferences: Grunt - Settings – Default"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"r",
+				"SublimeREPL: R"
+			],
+			[
+				"gm",
+				"Git: Merge Branch"
+			],
+			[
+				"git check",
+				"Git: Checkout Current File"
+			],
+			[
+				"gch",
+				"Git: Checkout Current File"
+			],
+			[
+				"git m",
+				"Git: Merge Branch"
+			],
+			[
+				"gitdi",
+				"Git: Diff Staged Files"
+			],
+			[
+				"git bra",
+				"Git: Change Branch"
+			],
+			[
+				"git chec",
+				"Git: Checkout Current File"
+			],
+			[
+				"gg",
+				"Git: Log All"
+			],
+			[
+				"gbr",
+				"Git: Change Branch"
+			],
+			[
+				"ggr",
+				"Git: Graph All"
+			],
+			[
+				"GC",
+				"Git: Commit"
+			],
+			[
+				"GA",
+				"Git: Add Current File"
+			],
+			[
+				"git",
+				"Git: Graph All"
+			],
+			[
+				"git re",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"git res",
+				"Git: Reset (unstage) All"
+			],
+			[
+				"git f",
+				"Git: Diff All Files"
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"gb",
+				"Git: Change Branch"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"gl",
+				"Git: Log All"
+			],
+			[
+				"get sta",
+				"Git: Reset (unstage) All"
+			],
+			[
+				"git br",
+				"Git: Change Branch"
+			],
+			[
+				"gitch",
+				"Git: Checkout Current File"
+			],
+			[
+				"gh",
+				"Git: Commit history"
+			],
+			[
+				"git lo",
+				"Git: Log All"
+			],
+			[
+				"gad",
+				"Git: Add..."
+			],
+			[
+				"g a",
+				"Git: Add..."
+			],
+			[
+				"gi",
+				"Git: Status"
+			],
+			[
+				"git ch",
+				"Git: Checkout Current File"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"giuns",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"ch",
+				"Git: Checkout Current File"
+			],
+			[
+				"gre",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"gam",
+				"Git: Amend Commit"
+			],
+			[
+				"gitlo",
+				"Git: Diff All Files (Ignore Whitespace)"
+			],
+			[
+				"gcom",
+				"Git: Commit"
+			],
+			[
+				"gitd",
+				"Git: Diff Current File"
+			],
+			[
+				"git co",
+				"Git: Commit Selected Hunk"
+			],
+			[
+				"his",
+				"Git: Commit history"
+			],
+			[
+				"gith",
+				"Git: Commit history"
+			],
+			[
+				"dift",
+				"Git: Diff Tool Current File"
+			],
+			[
+				"diff",
+				"Git: Diff Tool All"
+			],
+			[
+				"gdi",
+				"Git: Diff All Files (Ignore Whitespace)"
+			],
+			[
+				"gid",
+				"Git: Diff Staged Files"
+			],
+			[
+				"gita",
+				"Git: Add Current File"
+			],
+			[
+				"gst",
+				"Git: Status"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"b",
+				"Git: Blame"
+			],
+			[
+				"git ",
+				"Git: Init"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sy r",
+				"Set Syntax: R"
+			],
+			[
+				"sub",
+				"SublimeREPL: R"
+			],
+			[
+				"R CO",
+				"Set Syntax: R Console"
+			],
+			[
+				"repl",
+				"Set Syntax: Io Repl"
+			],
+			[
+				"PACKA",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"rm",
+				"Set Syntax: R Markdown"
+			],
+			[
+				"sn",
+				"Snippet: html"
+			],
+			[
+				"rmar",
+				"Set Syntax: R Markdown"
+			],
+			[
+				"bui",
+				"Build: Build"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/jdm/Projects/xbmc",
+		"/home/jdm/Projects/xbmc/app",
+		"/home/jdm/Projects/xbmc/node_modules",
+		"/home/jdm/Projects/xbmc/public/lib",
+		"/home/jdm/Projects/xbmc/public/lib/angular-xbmc",
+		"/home/jdm/Projects/xbmc/public/lib/angular-xbmc/dist",
+		"/home/jdm/Projects/xbmc/public/modules"
+	],
+	"file_history":
+	[
+		"/home/jdm/Projects/xbmc/public/lib/angular-xbmc/dist/angular-xbmc.js",
+		"/home/jdm/.gitconfig",
+		"/home/jdm/Projects/xbmc/public/modules/og-xbmc/config/og-xbmc.client.routes.js",
+		"/home/jdm/Projects/xbmc/public/modules/og-xbmc/config/og-xbmc.client.config.js",
+		"/home/jdm/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/jdm/Projects/xbmc/public/modules/og-xbmc/controllers/movie.client.controller.js",
+		"/home/jdm/Projects/xbmc/public/modules/og-xbmc/views/movieDetails.client.view.html",
+		"/home/jdm/Projects/xbmc/public/modules/og-xbmc/views/movieSummary.client.view.html",
+		"/home/jdm/Projects/xbmc/public/modules/og-xbmc/css/styles.css",
+		"/proc/meminfo",
+		"/proc/loadavg",
+		"/proc/diskstats",
+		"/proc/cpuinfo",
+		"/home/jdm/Projects/xbmc/bower.json",
+		"/home/jdm/Projects/xbmc/public/config.js",
+		"/home/jdm/Projects/xbmc/config/env/all.js",
+		"/home/jdm/Projects/xbmc/public/modules/og-xbmc/controllers/movies.client.controller.js",
+		"/mnt/Media1/Projects/ogecko/bower.json",
+		"/mnt/Media1/Projects/ogecko/public/modules/color-space/views/radian.client.view.html",
+		"/mnt/Media1/Projects/ogecko/public/modules/og-xbmc/og-xbmc.client.module.js",
+		"//DISKSTATION/Media1/Projects/video-test-clock/video-test-clock.html",
+		"//DISKSTATION/Media1/Projects/video-test-clock/clock.js",
+		"//diskstation/Media1/Projects/ogecko/public/modules/color-space/config/color-space.client.routes.js",
+		"//diskstation/Media1/Projects/ogecko/public/modules/color-space/config/color-space.client.config.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/color-space/config/color-space.client.config.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/color-space/config/color-space.client.routes.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/samples/views/radian.client.view.html",
+		"/mnt/Media1/Projects/ogecko/public/modules/samples/samples.client.module.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/painting/config/painting.client.config.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/samples/config/samples.client.routes.js",
+		"/mnt/Media1/Projects/ogecko/config/env/all.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/samples/config/samples.client.config.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/color-space/color-space.client.module.js",
+		"/mnt/Media1/Projects/ogecko/Gruntfile.js",
+		"/mnt/Media1/Projects/ogecko/public/config.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/color-space/directives/og-d3hcl.client.directive.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/color-space/directives/og-d3hsl.client.directive.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/color-space/controllers/d3hcl.client.controller.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/color-space/views/d3hcl.client.view.html",
+		"/mnt/Media1/Projects/ogecko/public/modules/color-space/controllers/radian.client.controller.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/painting/config/painting.client.routes.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/painting/controllers/painting.client.controller.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/painting/views/analyse-painting.client.view.html",
+		"/mnt/Media1/Projects/ogecko/public/modules/color-space/views/test_d3hcl.html",
+		"/mnt/Media1/Projects/ogecko/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/gzip-size/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/index.js",
+		"/mnt/Media1/Projects/ogecko/ogecko.sublime-project",
+		"/home/jdm/.config/sublime-text-3/Packages/Grunt/SublimeGrunt.sublime-settings",
+		"/home/jdm/.config/sublime-text-3/Packages/User/SublimeGrunt.sublime-settings",
+		"/mnt/Media1/Projects/ogecko/public/modules/xbmc/index.html",
+		"/mnt/Media1/Projects/ogecko/public/modules/xbmc/js/services.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/xbmc/partials/movie-genre.html",
+		"/mnt/Media1/Projects/ogecko/public/modules/core/services/menus.client.service.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/painting/painting.client.module.js",
+		"/mnt/Media1/Projects/ogecko/app/views/index.server.view.html",
+		"/mnt/Media1/Projects/ogecko/public/modules/core/views/analyse-picture.html",
+		"/mnt/Media1/Projects/ogecko/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/ini/test/bar.js",
+		"/mnt/Media1/Projects/ogecko/node_modules/passport-github/node_modules/pkginfo/examples/object-argument.js",
+		"/mnt/Media1/Projects/ogecko/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/uglify-to-browserify/package.json",
+		"/mnt/Media1/Projects/ogecko/node_modules/helmet/test/hidePoweredBy.js",
+		"/mnt/Media1/Projects/ogecko/node_modules/grunt-node-inspector/node_modules/node-inspector/front-end/TimelineOverviewPane.js",
+		"/mnt/Media1/Projects/ogecko/public/lib/bootstrap/less/mixins/text-overflow.less",
+		"/mnt/Media1/Projects/ogecko/config/env/test.js",
+		"/mnt/Media1/Projects/ogecko/public/modules/xbmc/js/jquery-1.9.0.min.js.bak",
+		"/mnt/Media1/Projects/ogecko/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn/test/index.html",
+		"/mnt/Media1/Projects/ogecko/node_modules/body-parser/index.js",
+		"/mnt/Media1/Projects/ogecko/node_modules/bower/node_modules/mout/lang/isNull.js",
+		"/mnt/Media1/Projects/ogecko/config/init.js",
+		"/mnt/Media1/Projects/ogecko/node_modules/mocha/lib/reporters/templates/menu.jade",
+		"/mnt/Media1/Projects/ogecko/node_modules/mongoose/examples/population/population-of-multiple-existing-docs.js",
+		"/mnt/Media1/Projects/ogecko/node_modules/.bin/mocha",
+		"/etc/fstab",
+		"/home/jdm/fstab.new",
+		"/mnt/volume1/Media1/Projects/angular-phonecat/test/e2e/scenarios.js",
+		"/mnt/volume1/Media1/Projects/angular-phonecat/app/js/controllers.js",
+		"/mnt/volume1/Media1/Projects/angular-phonecat/test/unit/controllersSpec.js",
+		"/mnt/volume1/Media1/Projects/angular-phonecat/app/index.html",
+		"/mnt/volume1/Media1/Projects/ThirdParty/munsell-js/csg.js",
+		"/mnt/volume1/Media1/Projects/R-training/CH8 - Decision Trees.R",
+		"/mnt/volume1/Media1/Projects/R-training/Tree.R",
+		"/mnt/volume1/Media1/Projects/video-test-clock/Readme.txt",
+		"/home/jdm/.config/sublime-text-3/Packages/Sublimerge Pro/Custom Comparisons.sublime-settings",
+		"/mnt/volume1/Media1/Projects/video-test-clock/clock.js",
+		"/mnt/volume1/Media1/Projects/video-test-clock/video-test-clock.html",
+		"/home/jdm/.gitignore",
+		"/mnt/volume1/Media1/Projects/paper.js-master/test/index.html",
+		"/mnt/volume1/Media1/Projects/video-test-clock/.git/config",
+		"/mnt/volume1/Media1/Projects/video-test-clock/.gitignore",
+		"/mnt/volume1/Media1/Projects/video-test-clock/.gitconfig",
+		"/mnt/volume1/Media1/Projects/color-wheel-visualisation/Color Wheel.html",
+		"/home/jdm/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/jdm/R/x86_64-pc-linux-gnu-library/3.0/munsell/R/munsell",
+		"/mnt/volume1/Media1/Projects/d3.v3/flare.js",
+		"/mnt/volume1/Media1/Projects/d3.v3/Sample Test.html",
+		"/mnt/volume1/Media1/Projects/d3.v3/LICENSE",
+		"/mnt/volume1/Media1/Projects/d3.v3/HBS Intellectual Property.html",
+		"/mnt/volume1/Media1/Projects/d3/src/math/index.js",
+		"/mnt/volume1/Media1/Projects/d3/src/math/trigonometry.js",
+		"/mnt/volume1/Media1/Projects/d3/src/d3.js",
+		"/home/jdm/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/mnt/volume1/Media1/A Learnings/Projects/R Training/Hello World.R",
+		"/mnt/volume1/Media1/A Learnings/Projects/R Training/Test.R",
+		"/home/jdm/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
+		"/mnt/volume1/Media1/A Learnings/Projects/R Training/Test.md",
+		"/home/jdm/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/mnt/volume1/Media1/A Learnings/Projects/R Training/Hello World.md",
+		"/mnt/volume1/Media1/A Learnings/Projects/R Training/x=2.R",
+		"/mnt/volume1/Media1/A Learnings/Development/d3-master/src/geo/conic.js",
+		"/mnt/volume1/Media1/A Learnings/Development/d3-master/bin/component",
+		"/mnt/volume1/Media1/A Learnings/Development/d3-master/src/geo/clip-view.js",
+		"/mnt/volume1/Media1/A Learnings/Development/d3-master/src/math/trigonometry.js",
+		"/mnt/volume1/Media1/A Learnings/Development/d3-master/bin/start",
+		"/mnt/volume1/Media1/A Learnings/Development/d3-master/src/core/noop.js",
+		"/mnt/volume1/Media1/A Learnings/Development/d3-master/component.json",
+		"/home/jdm/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/mnt/volume1/Media1/A Learnings/Development/d3-master/d3.js",
+		"//DISKSTATION/web/glfx/src/filters/common.js",
+		"//DISKSTATION/web/glfx/src/glfx.js",
+		"//DISKSTATION/web/glfx/www/glfx.js/media/demo.js",
+		"//DISKSTATION/web/glfx/tests/filter.blur.transparent.html",
+		"/C/Program Files/Sublime Text 3/changelog.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"idRun",
+			"play",
+			"/home/",
+			"/usr/",
+			"/mnt/",
+			"/home/jdm/.meteor/packages/meteor-tool/.1.1.3.4sddkj++os.linux.x86_64+web.browser+web.cordova/mt-os.linux.x86_64/dev_bundle/server-lib/node_modules/chalk/node_modules/supports-color/cli.js\n/home/jdm/.meteor/packages/meteor-tool/.1.1.3.4sddkj++os.linux.x86_64+web.browser+web.cordova/mt-os.linux.x86_64/dev_bundle/lib/node_modules/chalk/node_modules/supports-color/cli.js\n/usr/local/lib/node_modules/yo/node_modules/chalk/node_modules/supports-color/cli.js\n/usr/local/lib/node_modules/yo/node_modules/yeoman-character/node_modules/supports-color/cli.js\n/usr/local/lib/node_modules/generator-meanjs/node_modules/chalk/node_modules/supports-color/cli.js\n/usr/local/lib/node_modules/generator-meanjs/node_modules/yeoman-generator/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/supports-color/cli.js\n/usr/local/lib/node_modules/bower/node_modules/inquirer/node_modules/chalk/node_modules/supports-color/cli.js\n/usr/local/lib/node_modules/bower/node_modules/chalk/node_modules/supports-color/cli.js\n/usr/local/lib/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/supports-color/cli.js\n/mnt/Media1/Projects/angular-phonecat/node_modules/bower/node_modules/chalk/node_modules/supports-color/cli.js\n/mnt/Media1/Projects/angular-phonecat/node_modules/bower/node_modules/insight/node_modules/chalk/node_modules/supports-color/cli.js\n/mnt/Media1/Projects/ogecko/node_modules/bower/node_modules/chalk/node_modules/supports-color/cli.js\n/mnt/Media1/Projects/ogecko/node_modules/bower/node_modules/insight/node_modules/chalk/node_modules/supports-color/cli.js\n/mnt/Media1/Projects/ogecko/node_modules/grunt-contrib-csslint/node_modules/chalk/node_modules/supports-color/cli.js\n/mnt/Media1/Projects/ogecko/node_modules/grunt-contrib-cssmin/node_modules/maxmin/node_modules/chalk/node_modules/supports-color/cli.js\n/mnt/Media1/Projects/ogecko/node_modules/grunt-contrib-uglify/node_modules/chalk/node_modules/supports-color/cli.js\n/mnt/Media1/Projects/ogecko/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/chalk/node_modules/supports-color/cli.js\n/mnt/Media1/Projects/ogecko/node_modules/grunt-node-inspector/node_modules/node-inspector/node_modules/v8-debug/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/supports-color/cli.js\n/mnt/Media1/Projects/ogecko/node_modules/grunt-node-inspector/node_modules/node-inspector/node_modules/v8-profiler/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/supports-color/cli.js\n/mnt/Media1/Projects/ogecko/node_modules/grunt-nodemon/node_modules/nodemon/node_modules/update-notifier/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/supports-color/cli.js\n/mnt/Media1/Projects/ogecko/node_modules/karma-coverage/node_modules/istanbul/node_modules/supports-color/cli.js\n/mnt/Media1/Projects/ogecko/node_modules/mocha/node_modules/supports-color/cli.js\n/mnt/Media1/Projects/trial/node_modules/chalk/node_modules/supports-color/cli.js\n/mnt/Media1/Projects/trial/node_modules/grunt-contrib-cssmin/node_modules/maxmin/node_modules/chalk/node_modules/supports-color/cli.js\n/mnt/Media1/Projects/trial/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/chalk/node_modules/supports-color/cli.js\n",
+			"studio",
+			".directive",
+			"directive",
+			"ngSrc",
+			"']",
+			"['",
+			"color-space",
+			"plot",
+			"d3",
+			"height/10",
+			"width/5",
+			"label",
+			"\"",
+			"div",
+			"articles",
+			"Articles",
+			"articles",
+			"Articles",
+			"articles",
+			"π",
+			"padNumLeadingZeros",
+			"padLeadingZeros",
+			"pad",
+			"graphics",
+			"summary",
+			",\n",
+			"canvas"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/modules/og-xbmc/controllers/movie.client.controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4431,
+								4431
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1674.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/playlist.server.controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/modules/og-xbmc/views/movieDetails.client.view.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2545,
+								2545
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/modules/og-xbmc/views/movieSummary.client.view.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1238,
+								1238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/lib/angular-xbmc/dist/angular-xbmc.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 122052,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 252.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "sample.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"registermodule",
+				"node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/gzip-size/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/index.js"
+			],
+			[
+				"topbar",
+				"node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/ini/test/bar.js"
+			],
+			[
+				"index.ht",
+				"node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn/test/index.html"
+			],
+			[
+				"menu",
+				"public/modules/core/services/menus.client.service.js"
+			],
+			[
+				"cn",
+				"src/geo/conic.js"
+			],
+			[
+				"fx",
+				"www\\glfx.js\\media\\demo.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 719.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 311.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

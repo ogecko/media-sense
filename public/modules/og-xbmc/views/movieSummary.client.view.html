@@ -1,0 +1,55 @@
+<section data-ng-controller="MovieController">
+	<h1>
+	{{summaryTitle}} ({{numMovies}} of {{numMoviesInCache}})
+	</h1>
+	<label>Search: <input ng-model="searchText"></label>
+	{{errormsg|json}}
+<!-- 	<div ng-repeat="movie in movies | unique:'label'| filter:searchText | orderBy:'-rating' | limitTo:50" > 
+		<div ng-show='{{($index % 6) == 0}}' class='clearfix'></div>
+		<div class='col-sm-2' >
+			<img class="og-movie-thumbnail img-thumbnail" data-details="movie" href="#!/movie/{{movie._id}}">			
+			<small>{{movie.label}}</small>
+		</div>
+	</div>
+ -->
+	<div class='row'>
+		<div class='col-sm-2 video-card' 
+			 ng-repeat-start="movie in movies | orderBy:'-rating' | unique:'label'| filter:filterText track by movie._id"  > 
+ 			<a class="video-image-wrapper" href="#!/movie/{{movie._id}}" >
+                <img class="og-movie-thumbnail img-thumbnail" data-details="movie" alt="..." class="">
+            </a>
+				<div class='video-actions-wrapper img-thumbnail  col-sm-11'>
+			        <button class="btn video-action-btn" type="button" ng-click="addMovieToPlaylist(movie.label);" >
+						<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+					</button>
+					<button class="btn video-action-btn" type="button" ng-click="playMovie(movie._id)">
+						<span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+					</button>	
+		        </div>
+            <div class='video-caption-wrapper'>
+                <div class="caption">
+                    <small class="">{{movie.label}}</small>
+                </div>
+            </div>
+		</div>
+		<div class='clearfix' ng-if="$index%6==5"></div>
+		<div ng-repeat-end=""></div>
+	</div>
+<!--  <div class='video-list'>
+	<div ng-repeat="movie in movies | unique:'label'| filter:searchText | orderBy:'-rating' | limitTo:50" class='col-sm-2 video-card'> 
+			<a href="#!/movie/{{movie._id}}" class="">
+                <img class="og-movie-thumbnail img-thumbnail" data-details="movie" alt="..." class="">
+                <div class="caption">
+                    <small class="">{{movie.label}}</small>
+                </div>
+            </a>
+	</div>
+</div>
+ --><!--  	<ul class='video-list'>
+	 	<li ng-repeat="movie in movies | unique:'label'| filter:searchText | orderBy:'-rating' | limitTo:50" class='movie-item-content'> 
+	 				<a href="#!/movie/{{movie._id}}">{{movie.label}}</a>
+	
+ 		</li>
+ 	</ul>
+ -->
+ </section>

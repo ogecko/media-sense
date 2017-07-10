@@ -1,0 +1,94 @@
+<section data-ng-controller="MovieController">
+	<h1>{{movie.label}}</h1>
+	{{errormsg|json}}
+	<div class='col-sm-3'>
+		<img class="og-movie-thumbnail img-thumbnail" data-details="movie">			
+	</div>
+	<div class="col-sm-9 form-horizontal">
+		<div ng-show='movie.votes' class="form-group">
+			<strong class="col-sm-2 text-right" for='idRating'>Rating</strong>
+			<div class="col-sm-10" id='idRating'>
+				{{movie.rating|number:2}} 
+				({{movie.votes}} votes<span ng-show='movie.mpaa'>, {{movie.mpaa}}</span>)
+			</div>
+		</div>
+		<div ng-show='movie.runtime' class="form-group">
+			<strong class="col-sm-2 text-right" for='idRun'>Runtime</strong>
+			<div class="col-sm-10" id='idRun' >{{movie.runtime/60 |number:0}} minutes (played {{movie.playcount}} times)</div>
+		</div>
+		<div ng-show='movie.streamdetails.video[0].height' class="form-group">
+			<strong class="col-sm-2 text-right" for='idFormat'>Format</strong>
+			<div class="col-sm-10" id='idFormat' >{{movie.streamdetails.video[0].width}}x{{movie.streamdetails.video[0].height}},
+											      {{movie.streamdetails.video[0].prettyAspect}},
+ 												  {{movie.streamdetails.video[0].codec}},
+												  {{movie.streamdetails.audio[0].codec}},
+												  {{movie.streamdetails.audio[0].channels}} Channels,
+												  {{movie.streamdetails.audio[0].language}}
+			</div>
+		</div>
+		<div ng-show='movie.director' class="form-group">
+			<strong class="col-sm-2 text-right" for='idStudio'>Studio</strong>
+			<div class="col-sm-10" id='idStudio'>
+				<span ng-repeat='director in movie.director'><span -ng-hide='$first'> | </span>{{director}}</span>, 
+				<span ng-repeat='studio in movie.studio'><span -ng-hide='$first'> | </span>{{studio}}</span>,
+				<span ng-repeat='country in movie.country'><span -ng-hide='$first'> | </span>{{country}}</span>
+				<span>({{movie.year}})</span>
+			</div>
+		</div>
+		<div ng-show='movie.cast' class="form-group">
+			<strong class="col-sm-2 text-right" for='idCast'>Cast</strong>
+			<div class="col-sm-10" id='idCast' >
+				<span ng-repeat='castmember in movie.cast'><span -ng-hide='$first'> | </span>{{castmember.name}}</span>
+			</div>
+		</div>
+		<div ng-show='movie.genre' class="form-group">
+			<strong class="col-sm-2 text-right" for='idGenres'>Genres</strong>
+			<div class="col-sm-10" id='idGenres' >
+				<span ng-repeat='genre in movie.genre'><span -ng-hide='$first'> | </span>{{genre}}</span>
+			</div>
+		</div>
+		<div ng-show='movie.tagline' class="form-group">
+			<strong class="col-sm-2 text-right" for='idTagline'>Tagline</strong>
+			<div class="col-sm-10" id='idTagline' >{{movie.tagline}}</div>
+		</div>
+		<div ng-show='movie.plotoutline' class="form-group">
+			<strong class="col-sm-2 text-right" for='idPlotOutline'>Plot Outline</strong>
+			<div class="col-sm-10" id='idPlotOutline' >{{movie.plotoutline}}</div>
+		</div>
+		<div ng-show='movie.plot' class="form-group">
+			<strong class="col-sm-2 text-right" for='idPlot'>Plot</strong>
+			<div class="col-sm-10" id='idPlot' >{{movie.plot}}</div>
+		</div>
+		<div ng-show='movie.file' class="form-group">
+			<strong class="col-sm-2 text-right" for='idFile'>Filename</strong>
+			<div class="col-sm-10" id='idFile' >{{movie.file}}</div>
+		</div>
+		<div ng-show='movie.imdbnumber' class="form-group">
+			<strong class="col-sm-2 text-right" for='idIMDB'>IMDB</strong>
+			<div class="col-sm-10" id='idIMDB' >
+				<a href="http://www.imdb.com/title/{{movie.imdbnumber}}" target="_blank">{{movie.label}} ({{movie.year}})</a>,
+				<a href="http://www.imdb.com/title/{{movie.imdbnumber}}/parentalguide" target="_blank">Notes</a>
+			</div>
+		</div>
+		<button type="button" ng-click="playerBackspace()" class="btn btn-default">
+			<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+			Info
+		</button>	
+		<button type="button" ng-click="playMovie(movie._id)" class="btn btn-primary">
+			<span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+			Play
+		</button>	
+		<button type="button" ng-click="playerAction('stepforward')" class="btn btn-default">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			Skip 30s
+		</button>	
+		<button type="button" ng-click="playerAction('bigstepforward')" class="btn btn-default">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			Skip 10m
+		</button>	
+		<button type="button" ng-click="addMovieToPlaylist(movie.label)" class="btn btn-default">
+			<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+			Add
+		</button>	
+	</div>
+</section>

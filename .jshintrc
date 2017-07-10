@@ -1,0 +1,11 @@
+{
+	"node": true,
+	"browser": true,
+	"mocha": true,
+	"jasmine": true,
+	"globals": {
+		"angular": false,
+		"inject": false,
+		"ApplicationConfiguration": false
+	}
+}

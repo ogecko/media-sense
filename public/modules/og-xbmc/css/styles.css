@@ -1,0 +1,65 @@
+.video-list {
+	display: table;
+}
+.video-card {
+	display: table-cell;
+	padding-left: 0;
+	padding-right: 4;
+}
+.video-actions-wrapper {
+	opacity:0;
+	background: rgb(43,48,48);
+	background: rgba(43,48,48,.5);
+	position: absolute;
+	top:0;
+	left:0;
+/*	height:252px;
+*/}
+.video-actions-wrapper:hover {
+	opacity:1;
+}
+
+.video-action-btn {
+	background: transparent;
+	color: rgb(255,255,255);
+	opacity:.7;
+	padding: 6px 6px;
+	float:left;
+}
+
+.video-action-btn:hover {
+	color: rgb(255,255,255);
+	opacity:1;
+}
+
+.video-card.ng-enter, 
+.video-card.ng-leave, 
+.video-card.ng-move {
+  -webkit-transition: 0.5s linear all;
+  -moz-transition: 0.5s linear all;
+  -o-transition: 0.5s linear all;
+  transition: 0.5s linear all;
+  position:relative;
+  display: block;
+}
+
+.video-card.ng-enter {
+  opacity:0;
+}
+.video-card.ng-enter.ng-enter-active {
+  opacity:1;
+}
+
+.video-card.ng-leave {
+  opacity:1;
+}
+.video-card.ng-leave.ng-leave-active {
+  opacity:0;
+}
+
+.video-card.ng-move {
+  opacity:0.5;
+}
+.video-card.ng-move.ng-move-active {
+  opacity:1;
+}

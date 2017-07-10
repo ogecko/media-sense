@@ -1,0 +1,48 @@
+{
+  "name": "angular-xbmc",
+  "description": "An angular library for xbmc",
+  "version": "0.1.0",
+  "license": "GNU GPL v2",
+  "authors": [
+    "Anthony Moutte <instabledesign@gmail.com>",
+    "Styvo (https://github.com/FullMoonIssue)"
+  ],
+  "main": "dist/angular-xbmc",
+  "keywords": [
+    "angular",
+    "xbmc",
+    "service",
+    "factory"
+  ],
+  "homepage": "https://github.com/instabledesign/angular-xbmc",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/instabledesign/angular-xbmc"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "src",
+    "Gruntfile.js"
+  ],
+  "dependencies": {
+    "angular": "~1.2.14",
+    "angular-websocket-provider": "~0.1.1"
+  },
+  "devDependencies": {
+    "qunit": "~1.14.0"
+  },
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.0",
+    "commit": "10a18208b03b53ad91e92cd5e2dd0e7158349e8c"
+  },
+  "_source": "git://github.com/instabledesign/angular-xbmc.git",
+  "_target": "~0.1.0",
+  "_originalSource": "angular-xbmc",
+  "_direct": true
+}
